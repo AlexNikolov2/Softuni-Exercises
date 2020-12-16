@@ -1,0 +1,10 @@
+function dayz(day){
+    let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday', 'Saturday', 'Sunday']
+
+    if(day >= 1 && day <= 7){
+        console.log(day[days - 1])
+    }
+    else{
+        console.log('Invalid day!')
+    }
+}
